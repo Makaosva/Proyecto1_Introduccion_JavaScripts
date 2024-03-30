@@ -22,3 +22,10 @@ function diminuyeClick() {
   pagarSpan = document.querySelector(".valor-total");
   pagarSpan.innerHTML = precio * disminuir;
 }
+
+/*Cambiar color tarjeta*/
+function cambiaColor() {
+  element = document.querySelector("#selector");
+  card = document.querySelector(".card");
+  card.style.backgroundColor = element.value;
+}

@@ -39,7 +39,14 @@ body {
     padding: 3px 10px
 }
 
+#selector{
+    padding: 5px;
+    margin-top: 5px;
+}
 
+.eleccionColor{
+    margin-top: 20px;
+}
 
 .card button {
     background: #e2a30b;
